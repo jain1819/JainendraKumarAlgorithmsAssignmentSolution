@@ -1,0 +1,23 @@
+Solution to master theorem for AlgorithmsAssignemtSolution
+a)T(n)= 3T(n/2)+n
+solution
+T(n)=Θ(nlog⁡3base2)
+
+b)T(n)= 64T(n/8)-n^2(log n)
+Solution
+Master theorem cannot be applied as f(n) is not positive. 
+So no solution by master theorem.
+
+c) T(n)=2nT(n/2)+n^n
+Solution
+Master theorem cannot be applied as ’ a’  is not constant. Here a=2n.
+So no solution by master theorem.
+
+d) T(n)=3T(n/3)+n/2;
+Solution
+T(n)=Θ(n log n)
+
+e) T(n)=7T(n/3)+n^2
+Solution
+T(n)=Θ(n^2)
+
